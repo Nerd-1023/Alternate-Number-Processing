@@ -1,0 +1,11 @@
+# Returns a whole number that's greater than 0
+
+import math
+def getNumber(x):
+    z = 0
+    i = []
+    for j in range(0, x):
+        i.append(1 + 2 * j)
+    for k in i:
+        z += k
+    return(math.sqrt(z))
