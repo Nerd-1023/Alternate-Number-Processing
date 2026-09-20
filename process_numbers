@@ -1,4 +1,4 @@
-# Returns a whole number that's greater than 0
+# Returns the square of a whole number that's greater than 0
 
 import math
 def getNumber(x):
