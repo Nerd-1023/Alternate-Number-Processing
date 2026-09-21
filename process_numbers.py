@@ -21,7 +21,7 @@ def getSquare(x):
 import math
 def getSquareRoot(x):
     z = 0
-    for j in range(0, 1000):
+    for j in range(0, 1000000):
         z += 1 + 2 * j
         if z == x:
             return(j + 1)
