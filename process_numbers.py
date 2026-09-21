@@ -1,27 +1,16 @@
 # Returns any whole number squared
 
-import math
-def getSquare(x):
-    negative = False
-    if x < 0:
-        negative = True
-    z = 0
-    i = []
-    for j in range(0, abs(x)):
-        i.append(1 + 2 * j)
-    for k in i:
-        z += k
-    if negative:
-        return(0 - z)
-    else:
-        return(z)
+def getSquare(inputNumber):
+    total = 0
+    for loopVar in range(0, abs(inputNumber)):
+        total += 1 + loopVar + loopVar
+    return(total)
 
 # Returns the square root of any whole positive number
 
-import math
-def getSquareRoot(x):
-    z = 0
-    for j in range(0, 1000000):
-        z += 1 + 2 * j
-        if z == x:
-            return(j + 1)
+def getSquareRoot(inputNumber):
+    total = 0
+    for loopVar in range(0, 1000000):
+        total += 1 + loopVar + loopVar
+        if total == inputNumber:
+            return(loopVar + 1)
