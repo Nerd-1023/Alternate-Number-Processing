@@ -5,9 +5,8 @@
 * Whole numbers only (no decimals)
 * Can be positive or negative
 #### How it works:
-1. Remove negative sign if it exists, to add back later
-2. Adds together all the first x odd numbers (the first 4 odd numbers are 1, 3, 5, and 7)
-3. Returns the value, always positive because it's squared
+1. Adds together all the first `abs(x)` odd numbers (the first 4 odd numbers are 1, 3, 5, and 7)
+2. Returns the value, always positive because it's squared
 
 ## `getSquareRoot(x)`
 #### Returns √x for any input of x
